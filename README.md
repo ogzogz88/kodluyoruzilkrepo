@@ -1,6 +1,7 @@
 # Kodluyoruz Ilk Repo
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
+index.html sayfasına ![buradan](https://kodluyoruzilkrepo.netlify.app/) ulaşabilirsiniz.
 
 ![patikadev](https://www.patika.dev/patika-dev-computer.gif)
 
