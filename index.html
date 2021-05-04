@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patika.dev rocks!</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background-image: linear-gradient(to right, rgb(45, 156, 219, 0.6), rgba(233, 149, 24, 0.6)), url(https://cdn.sanity.io/images/9kdepi1d/production/81188239f6ad3b9b8547a87e64dc3a140829026a-2048x1365.jpg?w=1500&h=1000&fit=crop&fm=webp);
+        }
+
+        .glass-box:hover {
+            background-color: rgba(233, 149, 24, 0.6);
+
+        }
+
+        .glass-box {
+            height: 300px;
+            width: 600px;
+            backdrop-filter: blur(7px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 2rem;
+            border-radius: 0.5rem;
+            animation: glass-bg-change 4s linear 1s infinite;
+        }
+
+
+
+        .patika-img {
+            height: 80px;
+        }
+
+        @keyframes glass-bg-change {
+            0% {
+                background-color: rgba(255, 255, 255, 0.15);
+            }
+
+            50% {
+                background-color: rgba(233, 149, 24, 0.6);
+            }
+
+            100% {
+                background-color: rgba(255, 255, 255, 0.15);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="glass-box ">
+            <img class="patika-img" src="https://www.patika.dev/patikaLogo.png" alt="patika.dev">
+            <h1>patika.dev rocks!</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
